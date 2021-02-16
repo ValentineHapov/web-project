@@ -6,10 +6,8 @@
 
 <script>
 
-import Post from "/Post.vue";
 export default {
   name: "PostsList",
-  components: {Post},
   props: ['post'],
   data() {
     return {

@@ -1,5 +1,4 @@
 <template>
-  <div class="col-md-6" v-for="post in list">
     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
       <div class="col p-4 d-flex flex-column position-static">
         <strong class="d-inline-block mb-2 text-primary">Тип статьи</strong>
@@ -12,13 +11,12 @@
         <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Миниатюра</text></svg>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
   name: "Card",
-  props: ['posts']
+  props: ['post']
 }
 </script>
 
