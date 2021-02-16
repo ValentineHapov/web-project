@@ -1,10 +1,11 @@
 <template>
-
+ <div>Hello, pOst!</div>
 </template>
 
 <script>
 export default {
-  name: "Past"
+  name: "Post",
+  props: ['post']
 }
 </script>
 
