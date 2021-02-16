@@ -9,10 +9,11 @@
 </template>
 
 <script>
+import Card from "../components/Card.vue";
 import PostsList from "../components/PostsList.vue";
 export default {
   name: "Home",
-  components: PostsList,
+  components: {PostsList, Card},
   data ()
   {
     return {
