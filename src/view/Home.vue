@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="row mb-2">
-      <div class="col-md-6" v-for="post in list" v-bind:key="post.id">
+      <div class="col-md-6" v-for="post in list.data().posts" v-bind:key="post.id">
         <Card v-bind:post="post"></Card>
       </div>
-    </div>
+  </div>
     <PostsList></PostsList>
   </div>
 </template>
