@@ -2,7 +2,7 @@
   <div>
     <div class="row mb-2">
       <div class="col-md-6" v-for="post in list">
-        <Card v-bind:post="post"></Card>
+        <Card v-bind:to="post"></Card>
       </div>
     </div>
   </div>
