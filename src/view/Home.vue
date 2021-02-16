@@ -2,9 +2,10 @@
   <div>
     <div class="row mb-2">
       <div class="col-md-6" v-for="post in list">
-        <Card v-bind:to="post"></Card>
+        <Card v-bind:post="post"></Card>
       </div>
     </div>
+    <PostsList></PostsList>
   </div>
 </template>
 
